@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a581d870-4746-4267-8c32-01210c619210" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ChatServer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/client.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/shiro.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/system.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/improvements/Heartbeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/improvements/Heartbeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/improvements/ManageClientAndServerMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/improvements/ManageClientAndServerMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/model/RemoteUserSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/model/UserSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/server/ServerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/server/ServerState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/service/ClientConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/service/ClientConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chat/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chat/service/UserSessionListener.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="27O1ZXAj1c4YNxZqhgZQCYNfpK3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.s1">
+    <configuration name="s1" type="Application" factoryName="Application" singleton="false" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="chat.Main" />
+      <module name="chat-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="s2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.Main" />
+      <module name="chat-server" />
+      <option name="PROGRAM_PARAMETERS" value="-n 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="s3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.Main" />
+      <module name="chat-server" />
+      <option name="PROGRAM_PARAMETERS" value="-n 3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="s4" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="chat.Main" />
+      <module name="chat-server" />
+      <option name="PROGRAM_PARAMETERS" value="-n4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.s1" />
+      <item itemvalue="Application.s2" />
+      <item itemvalue="Application.s3" />
+      <item itemvalue="Application.s4" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.s1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a581d870-4746-4267-8c32-01210c619210" name="Changes" comment="" />
+      <created>1649176375363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649176375363</updated>
+      <workItem from="1649176376619" duration="672000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

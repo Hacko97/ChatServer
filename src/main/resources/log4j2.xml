@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{DEFAULT} [%t] %-5level %logger{1} - %msg%n"/>
+        </Console>
+
+        <File name="File" fileName="app.log" append="false">
+            <PatternLayout pattern="%d{DEFAULT} [%t] %-5level %logger{1} - %msg%n"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="File"/>
+        </Root>
+
+        <!--<Logger name="chat" level="INFO"/>-->
+
+        <Logger name="chat.server.ChatServer" level="DEBUG"/>
+
+        <!-- Debug Gossip -->
+
+        <Logger name="chat.heartbeat" level="DEBUG"/>
+        <Logger name="chat.handler.management.consensus" level="DEBUG"/>
+        <Logger name="chat.handler.management.gossip" level="DEBUG"/>
+
+        <!-- Debug Bully -->
+
+        <Logger name="chat.election.electionhandler" level="DEBUG"/>
+        <Logger name="chat.election" level="DEBUG"/>
+
+        <!-- others -->
+        <!--<Logger name="org.quartz" level="INFO"/>-->
+
+    </Loggers>
+
+</Configuration>
