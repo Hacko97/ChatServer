@@ -15,6 +15,10 @@ We have implemented leader selection and fault tolerance in this distributed app
 
 <br/>
 2. Heartbeat functionality - Heartbeat implementation is to check if the servers are down or not. All the servers maintain heartbeat from all the servers. A threshold value is used for the alive factor. If the heartbeat value surpasses the value, each server thinks that the other server is down. So it removes all the client IDs and room IDs associated with that server and relays the message to all the servers. So the removed Room IDs and Client IDs can be reusable by the servers again. Alive factor of each individual server is monitored. This is how we have implemented fault tolerance to a certain level.
+<br/>
+<img src="heartbeat.png" width="400" height="400" />
 
+
+<br/>
 
 [1] Seok-Hyoung Lee and Hoon Choi. “The Fast Bully Algorithm: For Electing a Coordinator Process in Distributed Systems”. In: Revised Papers from the International Conference on Information Networking, Wireless Communications Technologies and Network Applications-Part II. ICOIN ’02.
